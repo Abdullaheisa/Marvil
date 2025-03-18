@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="logo">
-        <motion.img initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.25, duration: 1, staggerChildren: 0.25 }} src="/src/assets/image/logo.png" alt="" />
+        <motion.img initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.25, duration: 1, staggerChildren: 0.25 }} src="./image/logo.png" alt="" />
       </div>
       {!isMobile && (
         <>

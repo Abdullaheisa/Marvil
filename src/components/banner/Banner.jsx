@@ -18,7 +18,7 @@ export default function Banner() {
         loop={true}>
         <SwiperSlide>
           <div className="banner_image">
-            <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 0.6 }} transition={{ delay: 0, duration: 1, staggerChildren: 0.25 }} src="src/assets/image/1.jpg" alt="" />
+            <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 0.6 }} transition={{ delay: 0, duration: 1, staggerChildren: 0.25 }} src="./image/1.jpg" alt="" />
             <div className="banner_text">
               <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.25, duration: 1 }}>Lorem ipsum dolor sit amet.</motion.h2>
               <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.25, duration: 1, staggerChildren: 0.25 }}>
@@ -30,7 +30,7 @@ export default function Banner() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="banner_image">
-            <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 0.6 }} transition={{ delay: 0, duration: 1, staggerChildren: 0.25 }} src="src/assets/image/2.jpg" alt="" />
+            <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 0.6 }} transition={{ delay: 0, duration: 1, staggerChildren: 0.25 }} src="./image/2.jpg" alt="" />
             <div className="banner_text">
               <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.25, duration: 1 }}>Lorem ipsum dolor sit amet.</motion.h2>
               <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.25, duration: 1, staggerChildren: 0.25 }}>
@@ -42,7 +42,7 @@ export default function Banner() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="banner_image">
-            <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 0.6 }} transition={{ delay: 0, duration: 1, staggerChildren: 0.25 }} src="src/assets/image/3.jpg" alt="" />
+            <motion.img initial={{ opacity: 0 }} whileInView={{ opacity: 0.6 }} transition={{ delay: 0, duration: 1, staggerChildren: 0.25 }} src="./image/3.jpg" alt="" />
             <div className="banner_text">
               <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.25, duration: 1 }}>Lorem ipsum dolor sit amet.</motion.h2>
               <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.25, duration: 1, staggerChildren: 0.25 }}>
